@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+#header{
+    color: darkred;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+
+}
+.backgroundimage{
+    background-image: url(img/qback2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: auto;
+
+}
+.body{
+    width: 100px;
+    margin-top: 20px;
+    color: black;
+    background-color: aquamarine;
+
+}
+.question{
+    clear: both;
+    padding-top: 20px;
+    text-align: center;
+
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.timer{
+    color: darkred;
+
+}
+.countdown{
+    text-align: center;
+    
+}
+#form1{
+    margin: 0%;
+    width: 100%;
+    text-align: center;
+
+}
+.logo{
+    width: 225px;
+    width: 20%;
+}
+ol{
+    background: white;
+    margin:0px;
+    padding: top 60px;
+}
+.li{
+    display: inline;
+}
+li a{
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 25px;
+}
+li a:hover{
+    font-size: 250%;
+    text-shadow: 1px 2px rgb(254, 255, 195);
+    line-height: 0%;
+}
+.list{
+    text-align: center;
+    background-color: white;
+    padding: 20px; 
+
+}
+.button{
+    text-align: center;
+
+}
+#submit{
+    font-size: medium;
+
+}
+.soical > a {
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    border: 3px solid #ccc;
+    margin: 0 8px;
+    color: inherit;
+    opacity: 0.75;
+    padding: 20px;
+
+}
+.social {
+    text-align:center;
+}
+.fa-facebook{
+    background: #3B5998;
+    color: white;
+}
+.fa{
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    width: 40px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+.btn-hover{
+    width: 100px;
+    right: 500px;
+    left: 400px;
+    font-size: 16px;
+    font-weight: 600px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    height: 50px;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+   
+    
+    -o-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+
+}
+.btn-hover:hover{
+    background-position: 100% 0;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .5s ease-in-out;
+
+}
+.btn-hover.color-1{
+    background-image: linear-gradient(to right, #e125c2, #0bd8f3, #ff0000, #fcf700);
+    box-shadow: 0 4px 15px 0 rgba(49,196,190,0.75);
+}

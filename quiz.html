@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+
+    <link rel="stylesheet" href="quiz.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+    <div class="backgroundimage">
+    <!--navigation bar-->
+
+               <div class="menu">
+                <img src="img/logo2.png" alt="pageLogo" class="logo">
+               </div>
+    <div id="header">
+        <h1>Sports Zone Quiz</h1>
+    </div>
+
+
+    <!--Questions-->
+
+    <form id="form1">
+        <div class="question">
+        <p>1.The Olympics are held every how many years? </p>
+            <input class="inputStyles" type="radio" name="1" value="ans1"> A) 2<br>
+            <input class="inputStyles" type="radio" name="1" value="ans2"> B) 4<br>
+            <input class="inputStyles" type="radio" name="1" value="ans3"> C) 8<br>
+            <input class="inputStyles" type="radio" name="1" value="ans4"> D) 3<br>
+
+            <p id="answer1"></p>
+
+            <br><br>
+        <p>2.How many players are on a baseball team?</p><br>
+            <input class="inputStyles" type="radio" name="2" value="ans1"> A) 7 players <br>
+            <input class="inputStyles" type="radio" name="2" value="ans2"> B) 6 players <br>
+            <input class="inputStyles" type="radio" name="2" value="ans3"> C) 9 players <br>
+            <input class="inputStyles" type="radio" name="2" value="ans4"> D) 8 players <br>
+
+            <p id="answer2"></p>
+
+            <br><br>
+        <p>3 How many minutes was the longest recorded point in the history of tennis?</p><br>
+            <input class="inputStyles" type="radio" name="3" value="ans1"> A) 29 minutes <br>
+            <input class="inputStyles" type="radio" name="3" value="ans2"> B) 41 minutes <br>
+            <input class="inputStyles" type="radio" name="3" value="ans3"> C) 22 minutes <br>
+            <input class="inputStyles" type="radio" name="3" value="ans4"> D) 33 minutes <br>
+
+            <p id="answer3"></p>
+
+            <br><br>
+            <p>4 How much does an NFL football weigh?</p><br>
+            <input class="inputStyles" type="radio" name="4" value="ans1"> A) 4 pound <br>
+            <input class="inputStyles" type="radio" name="4" value="ans2"> B) 1 pound <br>
+            <input class="inputStyles" type="radio" name="4" value="ans3"> C) 3 pound <br>
+            <input class="inputStyles" type="radio" name="4" value="ans4"> D) 6 pound <br>
+
+            <p id="answer4"></p>
+
+            <br><br>
+        <p>5.What was the first city to host the Olympics twice?</p><br>
+            <input class="inputStyles" type="radio" name="5" value="ans1"> A) Nepal <br>
+            <input class="inputStyles" type="radio" name="5" value="ans2"> B) Yemen <br>
+            <input class="inputStyles" type="radio" name="5" value="ans3"> C) Italy <br>
+            <input class="inputStyles" type="radio" name="5" value="ans4"> D) Paris <br>
+
+            <p id="answer5"></p>
+            
+            <br><br>
+        <p>6.How many rings are there on the Olympic flag?</p><br>
+            <input class="inputStyles" type="radio" name="6" value="ans1"> A) 4 <br>
+            <input class="inputStyles" type="radio" name="6" value="ans2"> B) 5 <br>
+            <input class="inputStyles" type="radio" name="6" value="ans3"> C) 6 <br>
+            <input class="inputStyles" type="radio" name="6" value="ans4"> D) 7 <br>
+
+            <p id="answer6"></p>
+
+            <br><br>
+        <p>7.The 2016 Summer Olympics will be held in which country?</p><br>
+            <input class="inputStyles" type="radio" name="7" value="ans1"> A) Sweden  <br>
+            <input class="inputStyles" type="radio" name="7" value="ans2"> B) Greece <br>
+            <input class="inputStyles" type="radio" name="7" value="ans3"> C) Brazil <br>
+            <input class="inputStyles" type="radio" name="7" value="ans4"> D) Norway <br>
+
+            <p id="answer7"></p>
+
+            <br><br>
+        <p>8.In which year did Sri Lanka win a World Cup?</p><br>
+            <input class="inputStyles" type="radio" name="8" value="ans1"> A) 1996 <br>
+            <input class="inputStyles" type="radio" name="8" value="ans2"> B) 2011 <br>
+            <input class="inputStyles" type="radio" name="8" value="ans3"> C) 2007 <br>
+            <input class="inputStyles" type="radio" name="8" value="ans4"> D) 1999 <br>
+            
+            <p id="answer8"></p>
+
+            <br><br>
+        <p>9The Bundesliga is a professional association football league in which country?</p><br>
+            <input class="inputStyles" type="radio" name="9" value="ans1"> A) Austriaa<br>
+            <input class="inputStyles" type="radio" name="9" value="ans2"> B) Morocco <br>
+            <input class="inputStyles" type="radio" name="9" value="ans3"> C) Germany <br>
+            <input class="inputStyles" type="radio" name="9" value="ans4"> D) Iceland <br>
+
+            <p id="answer9"></p>
+
+            <br><br>
+        <p>10.The term double fault is associated with</p><br>
+            <input class="inputStyles" type="radio" name="10" value="ans1"> A) boxing <br>
+            <input class="inputStyles" type="radio" name="10" value="ans2"> B) Squash <br>
+            <input class="inputStyles" type="radio" name="10" value="ans3"> C) diving <br>
+            <input class="inputStyles" type="radio" name="10" value="ans4"> D) Tennis <br>
+
+            <p id="answer10"></p>
+        </div>
+    </form>
+    
+     <!--timer-->
+
+    <br><br> 
+    <div class="countdown">
+        <span id="timer"></span>
+    </div>
+
+    <br>
+    <div>
+        <div class="center">
+    <button type="button" onclick="checkAnswer()" class="btn-hover color-1">Submit</button>
+    <hr>
+
+    </div>
+        </div>
+
+    <div id="after_submit">
+        <p id="score"></p>
+        <p id="time"></p>
+    </div>
+
+    <br><br>
+
+    <div class="center">
+        <img src="img/arrow.jpg" alt="arrow" width="25" height="25"><a href="#top" class="back"><button>Back To Top</button></a>
+        </div>
+    
+       <!--footer-->
+       <div class="footer">
+           <div class="social">
+            <br>
+            <a href="https://www.facebook.com"><i class="fa fa-facebook" style="font-size: 30px;"></i></a>
+            <a href="https://twitter.com"><i class="fa fa-twitter" style="font-size: 30px;"></i></a>
+            <a href="https://www.instagram.com"><i class="fa fa-instagram" style="font-size: 30px;"></i></a>
+            <a href="https://lk.linkedin.com"><i class="fa fa-linkedin" style="font-size: 30px;"></i></a>
+            <a href="https://www.snapchat.com/"><i class="fa fa-snapchat" style="font-size: 30px;"></i></a>
+            <br><br>
+                <a href="page_editor.html" id="page_editor" style="text-decoration:none;color : rgb(0, 0, 0)">Page creator</a>
+                <br>
+           </div>
+        </div>
+       
+            
+    </div>
+   <script>
+var forml = document.querySelector("form")
+
+var timer;
+
+var sec = 60;
+var min =0;
+var sec2;
+
+window.onload = function timecount(){
+    timer = setInterval(function(){
+        sec--;
+        if (sec == 0){
+            clearTimeout(timer);
+            checkAnswer()
+            }
+        else if(sec==0){
+            sec=60;
+        }
+        document.getElementById("timer").innerHTML = "Remaining Time" + sec + " " + "seconds";},1000);
+
+}
+
+
+function checkAnswer(){
+    clearTimeout(timer);
+
+    var correct = 0;
+    var ans1Arr = document.getElementsByName("1");
+    var ans2Arr = document.getElementsByName("2");
+    var ans3Arr = document.getElementsByName("3");
+    var ans4Arr = document.getElementsByName("4");
+    var ans5Arr = document.getElementsByName("5");
+    var ans6Arr = document.getElementsByName("6");
+    var ans7Arr = document.getElementsByName("7");
+    var ans8Arr = document.getElementsByName("8");
+    var ans9Arr = document.getElementsByName("9");
+    var ans10Arr = document.getElementsByName("10");
+
+    
+
+    var ans1Select = " "; var ans2Select = " "; var ans3Select = " "; var ans4Select = " "; var ans5Select = " "; 
+    var ans6Select = " "; var ans7Select = " "; var ans8Select = " "; var ans9Select = " "; var ans10Select = " ";
+
+    //question1
+    for (var i = 0; i < ans1Arr.length;i++){
+        if (ans1Arr[i].checked){
+            ans1Select = ans1Arr[i].value;
+        }
+    }
+    if (ans1Select == " ") {
+        document.getElementById("answer1").innerHTML = "Incompleted" ;
+        document.getElementById("answer1").style.color = "#0033cc";
+    }
+    else if (ans1Select == "ans2") {
+        document.getElementById("answer1").innerHTML = "Correct" ;
+        correct +=2;
+        document.getElementById("answer1").style.color = "pink";
+    }
+    else {
+        document.getElementById("answer1").innerHTML = "Incorrect" ;
+        correct--;
+        document.getElementById("answer1").style.color = "#b30000";
+    }
+
+    //question2
+
+    for (var i=0; i< ans2Arr.length;i++){
+        if (ans2Arr[i].checked){
+            ans2Select = ans2Arr[i].value;
+        }
+    }
+    if (ans2Select == " ") {
+        document.getElementById("answer2").innerHTML = "Incompleted" ;
+        document.getElementById("answer2").style.color = "#0033cc";
+
+    }
+    else if (ans2Select == "ans3") {
+        document.getElementById("answer2").innerHTML = "Correct" ;
+        correct +=2;
+        document.getElementById("answer2").style.color = "pink";
+    }
+    else {
+        document.getElementById("answer2").innerHTML = "Incorrect" ;
+        correct--;
+        document.getElementById("answer2").style.color = "#b30000";
+    }
+
+    //question3
+
+    for (var i=0; i< ans1Arr.length;i++){
+        if (ans3Arr[i].checked){
+            ans3Select = ans3Arr[i].value;
+
+        }
+    }
+    if (ans3Select == " ") {
+        document.getElementById("answer3").innerHTML = "Incompleted" ;
+        correct--;
+        document.getElementById("answer3").style.color = "#0033cc";
+    }
+    else if (ans3Select == "ans1") {
+        document.getElementById("answer3").innerHTML = "Correct" ;
+        correct +=2;
+        document.getElementById("answer3").style.color = "pink";
+    }
+    else {
+        document.getElementById("answer3").innerHTML = "Incorrect" ;
+        correct--;
+        document.getElementById("answer3").style.color = "#b30000";
+    }
+
+    //question4
+
+    for (var i=0; i< ans4Arr.length;i++){
+        if (ans4Arr[i].checked){
+            ans4Select = ans4Arr[i].value;
+        }
+    }
+    if (ans4Select == " ") {
+        document.getElementById("answer4").innerHTML = "Incompleted" ;
+        correct--;
+        document.getElementById("answer4").style.color = "#0033cc";
+    }
+    else if (ans4Select == "ans2") {
+        document.getElementById("answer4").innerHTML = "Correct" ;
+        correct +=2;
+        document.getElementById("answer4").style.color = "pink";
+    }
+    else {
+        document.getElementById("answer4").innerHTML = "Incorrect" ;
+        correct--;
+        document.getElementById("answer4").style.color = "#b30000";
+    }
+
+    //question5
+
+    for (var i=0; i< ans5Arr.length;i++){
+        if (ans5Arr[i].checked){
+            ans5Select = ans5Arr[i].value;
+        }
+    }
+    if (ans5Select == " ") {
+        document.getElementById("answer5").innerHTML = "Incompleted" ;
+        correct--;
+        document.getElementById("answer5").style.color = "#0033cc";
+    }
+    else if (ans5Select == "ans4") {
+        document.getElementById("answer5").innerHTML = "Correct" ;
+        correct +=2;
+        document.getElementById("answer5").style.color = "pink";
+    }
+    else {
+        document.getElementById("answer5").innerHTML = "Incorrect" ;
+        correct--;
+        document.getElementById("answer5").style.color = "#b30000";
+    }
+
+    //question6
+
+    for (var i=0; i< ans6Arr.length;i++){
+        if (ans6Arr[i].checked){
+            ans6Select = ans6Arr[i].value;
+        }
+    }
+    if (ans6Select == " ") {
+        document.getElementById("answer6").innerHTML = "Incompleted" ;
+        correct--;
+        document.getElementById("answer6").style.color = "#0033cc";
+    }
+    else if (ans6Select == "ans2") {
+        document.getElementById("answer6").innerHTML = "Correct" ;
+        correct +=2;
+        document.getElementById("answer6").style.color = "pink";
+    }
+    else {
+        document.getElementById("answer6").innerHTML = "Incorrect" ;
+        correct--;
+        document.getElementById("answer6").style.color = "#b30000";
+    }
+
+    //question7
+
+    for (var i=0; i< ans7Arr.length;i++){
+        if (ans7Arr[i].checked){
+            ans7Select = ans7Arr[i].value;
+        }
+    }
+    if (ans7Select == " ") {
+        document.getElementById("answer7").innerHTML = "Incompleted" ;
+        correct--;
+        document.getElementById("answer7").style.color = "#0033cc";
+    }
+    else if (ans7Select == "ans3") {
+        document.getElementById("answer7").innerHTML = "Correct" ;
+        correct +=2;
+        document.getElementById("answer7").style.color = "pink";
+    }
+    else {
+        document.getElementById("answer7").innerHTML = "Incorrect" ;
+        correct--;
+        document.getElementById("answer7").style.color = "#b30000";
+    }
+
+    //question8
+
+    for (var i=0; i< ans8Arr.length;i++){
+        if (ans8Arr[i].checked){
+            ans8Select = ans8Arr[i].value;
+        }
+    }
+    if (ans8Select == " ") {
+        document.getElementById("answer8").innerHTML = "Incompleted" ;
+        correct--;
+        document.getElementById("answer8").style.color = "#0033cc";
+    }
+    else if (ans8Select == "ans1") {
+        document.getElementById("answer8").innerHTML = "Correct" ;
+        correct +=2;
+        document.getElementById("answer8").style.color = "pink";
+    }
+    else {
+        document.getElementById("answer8").innerHTML = "Incorrect" ;
+        correct--;
+        document.getElementById("answer8").style.color = "#b30000";
+    }
+
+    //question9
+
+    for (var i=0; i< ans9Arr.length;i++){
+        if (ans9Arr[i].checked){
+            ans9Select = ans9Arr[i].value;
+        }
+    }
+    if (ans9Select == " ") {
+        document.getElementById("answer9").innerHTML = "Incompleted" ;
+        document.getElementById("answer9").style.color = "#0033cc";
+    }
+    else if (ans9Select == "ans3") {
+        document.getElementById("answer9").innerHTML = "Correct" ;
+        correct +=2;
+        document.getElementById("answer9").style.color = "pink";
+    }
+    else {
+        document.getElementById("answer9").innerHTML = "Incorrect" ;
+        correct--;
+        document.getElementById("answer9").style.color = "#b30000";
+    }
+    //question10
+
+    for (var i=0; i< ans10Arr.length;i++){
+        if (ans10Arr[i].checked){
+            ans10Select = ans10Arr[i].value;
+        }
+    }
+    if (ans10Select == " ") {
+        document.getElementById("answer10").innerHTML = "Incompleted" ;
+        document.getElementById("answer10").style.color = "#0033cc";
+    }
+    else if (ans10Select == "ans4") {
+        document.getElementById("answer10").innerHTML = "Correct" ;
+        correct +=2;
+        document.getElementById("answer10").style.color = "pink";
+    }
+    else {
+        document.getElementById("answer10").innerHTML = "Incorrect" ;
+        correct--;
+        document.getElementById("answer10").style.color = "#b30000";
+    }
+
+    if (correct < 0){
+        correct = 0;
+    }
+
+if (correct == 20) {
+    document.getElementById("form1").style.backgroundColor="lightblue";
+
+}
+
+else if (correct > 16) {
+    document.getElementById("form1").style.backgroundColor = "#D0D0D0";
+
+}
+
+else if (correct > 12) {
+    document.getElementById("form1").style.backgroundColor = "#4E0772";
+
+}
+
+else if (correct >8 ) {
+    document.getElementById("form1").style.backgroundColor = "#407207";
+
+}
+
+else {
+    document.getElementById("form1").style.backgroundColor = "brown";
+
+}
+
+sec2 = 60 - sec;
+
+document.getElementById("after_submit").style.visibility = "visible";
+document.getElementById("score").innerHTML = "YOU GOT" + correct + "/20.";
+document.getElementById("time").innerHTML = "yOU HAVE TAKEN" + " " + sec2 + " "+"SECOND TO COMPLETE THIS QUIZ";
+
+}
+   </script>  
+</body>
+</html>

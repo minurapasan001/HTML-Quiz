@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+
+}
+
+#sitename{
+        text-align: center;
+        font-family: 'Zen Tokyo Zoo', cursive;
+        font-size: 40px;
+        
+    }
+.backgroundimage{
+        background-image: url(img/5305323.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: auto;
+}
+
+.WELCOME{
+    text-align: center;
+    font-size: 25px;
+    color: azure;
+    color: rgba(0, 0, 0, 0.978);
+    text-shadow: 2px 2px 10px rgb(255, 0, 0),0 0 30px rgb(3, 255, 37);
+
+}
+.logo{
+    width: 225px;
+
+}
+.best{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: rgb(14, 14, 14);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.introduction{
+    text-align: center;
+    padding: 320px;
+    font-size: 30px;
+    color: black ;
+
+}
+#button{
+    background-color: rgb(119, 133, 122);
+    border-color: coral;
+    color: black;
+    padding: 15px 30px 15px 30px;
+    align-items: center;
+    justify-content: center;
+
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+ul{
+    background-color: white;
+    margin: 0px;
+    padding-top: 60px;
+
+}
+li{
+    display: inline;
+
+}
+li a:hover{
+    font-size: 250px;
+    text-shadow: 1px 2px gold;
+    line-height: 0% ;
+
+}
+.back{
+    text-align: center;
+}
+.list{
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.soical > a {
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    border: 3px solid #ccc;
+    margin: 0 8px;
+    color: inherit;
+    opacity: 0.75;
+    padding: 20px;
+
+}
+.social {
+    text-align:center;
+}
+.fa-facebook{
+    background: #3B5998;
+    color: white;
+}
+.fa{
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    width: 40px;
+}
+.btn-hover{
+    width: 200px;
+    right: 500px;
+    left: 400px;
+    font-size: 16px;
+    font-weight: 600px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    height: 50px;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+   
+    
+    -o-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+
+}
+.btn-hover:hover{
+    background-position: 100% 0;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .5s ease-in-out;
+
+}
+.btn-hover.color-1{
+    background-image: linear-gradient(to right, #e12b25, #d4e440, #dd30b2, #2b34b6);
+    box-shadow: 0 4px 15px 0 rgba(49,196,190,0.75);
+}
+.creater{
+    text-align: center;
+}
